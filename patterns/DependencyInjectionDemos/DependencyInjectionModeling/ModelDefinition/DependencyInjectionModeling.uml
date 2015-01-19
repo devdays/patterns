@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a40881e5-7f4e-4f0a-9ed5-7ff92ddeff5b"
+  name="DependencyInjectionModeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1dab243c-b51f-4af6-bd0e-221239d94734"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3D::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="ebccdb04-2bd6-4000-a62a-598da6eddb0c">
+      <profileInstance
+        Id="b03ec1b0-41ae-48d9-a2cc-4f0f7605937b"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c17cd9b4-1f3d-4f95-b9de-a0f88dd7694e"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="578ebf23-8c55-4009-9f16-0160c1ba754d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DClient"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ac48c416-8b22-49f0-a846-8c4b81b82597"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72ed2d61-9af9-4246-ac06-01a22f73a393">
+                <propertyInstance
+                  Id="79121875-9c31-410c-8f85-2e503c50feac"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0db3c36-970a-4727-9632-64ee8e55a639">
+                <propertyInstance
+                  Id="97a27b31-5ccf-4941-aec9-635dbf764900"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b69961a2-f4b3-442f-8607-75b01a788b2c">
+                <propertyInstance
+                  Id="2b5794d4-bfea-4b5e-81f0-8bba9c2d4d5a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ad321ae-ef68-4702-b275-12fb241daf6a">
+                <propertyInstance
+                  Id="8678e15b-3106-459e-b217-d6221530cce3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c549b7fa-6df4-4b45-8f0c-884f13f98653">
+                <propertyInstance
+                  Id="36b514c6-088c-406c-a062-662d1ca26175"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4b17d5e8-c424-416a-91a8-c6d444bce5f6"
+            name="_service"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8c52a4ff-5328-4964-99b6-d6aaf5dabb31"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DClient Member%3D_service"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7d9d20b6-aa74-4de4-86d1-92c406c55c72"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15296973-7ff9-4484-9008-928b868c0aea">
+                    <propertyInstance
+                      Id="87e2903b-cd1c-4b79-9f27-bf0925adbd3a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="031f21fb-d9bd-476e-8eb9-1ac50d98d181">
+                    <propertyInstance
+                      Id="7d43b360-faa3-411e-83f3-73cf66512db1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c8c6375-c09b-421b-9c97-24900dc60342">
+                    <propertyInstance
+                      Id="507fe6ff-0e56-4747-b5c5-709f58d8847d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d29492aa-9e81-47b9-90ba-37fce39c19f9">
+                    <propertyInstance
+                      Id="43bc3d4d-7122-4613-8bf4-85e5ae8b462d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f745167c-931f-45b6-af2f-5f66a7be690a">
+                    <propertyInstance
+                      Id="10300704-0d75-4312-8050-215a2151dab3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="c437d6d2-ee5a-4de8-bc2e-bcc87fb054ee"
+                LastKnownName="IService"
+                LastKnownLocation="DependencyInjectionModeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d5bccece-8902-41d4-93f3-770f7978e8bd"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="50eacb8d-5f14-4969-bd30-ed5b358e54f6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DClient Member%3DStart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c2dc2ef-28a4-4e9c-83d1-623fa9f440e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fe78153-8c09-4b0d-808c-430698732c73">
+                    <propertyInstance
+                      Id="845e0bb5-7b38-4dfa-8ff8-8c5e9501e001"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85e7b7ab-e1c1-4a13-bef2-f0d005ba53ea">
+                    <propertyInstance
+                      Id="58fcd7a4-68af-468b-9087-82738857801a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4d1d380-b7c0-4c28-9b7d-00a557fbf145">
+                    <propertyInstance
+                      Id="f7c7b961-ed87-4bf2-a542-e3001efe6731"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8d9172d-abc1-4ec5-99fd-824d622099a1">
+                    <propertyInstance
+                      Id="526ce85d-e9d0-4e48-8a53-e7f887a90980"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be30c6dd-f66b-4104-ab84-90e1d90b2793">
+                    <propertyInstance
+                      Id="ad52bc9d-bf25-4c66-97d9-102efda6fa4d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4df398a-a9f7-4bfc-84a6-d764d3c5d91d">
+                    <propertyInstance
+                      Id="e77a187e-078f-4cfc-a2db-cc3a4fde66aa"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="00836db7-b45d-4aed-80c0-33bc07221e1e"
+            name="Client"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f93a9539-4506-4c7b-bfce-e68fb546dbfa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DClient Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DIService)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7bdd5689-72ca-445b-a7a1-2b617f11222f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c582e648-3f94-42fe-b9d2-050eb1de26a4">
+                    <propertyInstance
+                      Id="65283915-1006-4403-844e-c2e309699124"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ad8c169-0a07-4082-b203-d0bc7dc01c02">
+                    <propertyInstance
+                      Id="4c4ff3d0-e4bb-4e51-81f9-261d3985d31e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8b9d11c-2f2f-44d5-9c41-4e702cd3fecb">
+                    <propertyInstance
+                      Id="73d1f56e-0d16-4ac2-bc7f-051460c7a851"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6463421-08e3-4bdc-9b5a-1b7b7106d4f2">
+                    <propertyInstance
+                      Id="3936df94-4c71-4665-a044-351bdab13cb5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df8f6ac3-44de-4b6c-8649-4b9c259065b1">
+                    <propertyInstance
+                      Id="8a3f0c39-93b3-41bb-a963-2a0241d73e85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e423554-5a75-43ff-b32a-2545b4cdb914">
+                    <propertyInstance
+                      Id="daba0e3f-adf2-4ffc-847c-c839b5b17f58"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fdd0f253-ad8e-4a56-bb65-7c035b2a836f"
+                  name="service"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f231ed0c-7232-4a87-b0e3-6b9d4ba9d522"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DClient Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DIService)]) ParameterIdentifier%3Dservice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c437d6d2-ee5a-4de8-bc2e-bcc87fb054ee"
+                      LastKnownName="IService"
+                      LastKnownLocation="DependencyInjectionModeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1b4a7091-f0c9-4ebe-b10d-ae825c49204f"
+        name="Service"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="36915b18-e756-4c6c-92dc-6328bff76aba"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0de1930e-6c87-4bbb-bea4-f94d00c876ad"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dca96c3-ee87-4625-b169-f7bf8be747bc">
+                <propertyInstance
+                  Id="64bac548-7338-4962-ab97-93fa875483a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="081ca21e-6e5d-4c07-a43b-8b41f1309add">
+                <propertyInstance
+                  Id="22795cac-4c56-496d-ab2d-7401af7d1499"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d653eb27-c768-40da-928e-9625223778ba">
+                <propertyInstance
+                  Id="3f7b2284-0c55-4a31-85df-c91978edb0d7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2974fff1-84b0-4192-a799-b4aad10f8c87">
+                <propertyInstance
+                  Id="3adb42d9-db18-43aa-b0fd-af8b832dc28b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="670f7d06-af26-4ff5-9cc8-f6a6b9bcf908">
+                <propertyInstance
+                  Id="bd89c075-d779-4ac8-b988-e74d8eac3f8d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="fa60b1e1-ff4f-4fb0-84b1-0397559d2f76">
+            <interfaceMoniker
+              Id="c437d6d2-ee5a-4de8-bc2e-bcc87fb054ee"
+              LastKnownName="IService"
+              LastKnownLocation="DependencyInjectionModeling.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6246b593-e2c6-43a1-85e0-fa89e0a38616"
+            name="Serve"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82838477-c386-4cbc-823e-9e31e98ed0b8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DService Member%3DServe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="675a5444-ab77-4eff-9a03-a415f6cb8f76"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b19de7e8-9856-4537-b90e-82d14ee9780c">
+                    <propertyInstance
+                      Id="28692469-9adf-438c-bdee-688f55231ca9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b55641a-25ae-4c61-8770-1b3259f9022f">
+                    <propertyInstance
+                      Id="b0eada53-0bb4-43de-8112-84dfeedb88ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0df0bc92-d85c-4faa-aa2b-2bb808e9d2c3">
+                    <propertyInstance
+                      Id="1455ddb0-842e-4484-95d2-e2b0c730a1b7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cae4065-bd06-4c8d-b007-196dd44e0af2">
+                    <propertyInstance
+                      Id="5b4632c3-45b2-433c-be45-517b1f9fe582"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11a260b4-ab0e-458d-960c-e9d7b814f9e9">
+                    <propertyInstance
+                      Id="f643ff90-ea44-4fd2-8c3d-9dec26d880fd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9640fc95-1a44-4f62-bc90-4d297bcde42f">
+                    <propertyInstance
+                      Id="984633e8-2182-445f-b12d-bf207ea7c1e1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="112d7cef-635f-4fe5-95d5-49e2221d1acb"
+            name="Service"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b2bbe39f-0302-4952-b65c-69a52b2cb370"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DService Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3c110054-8d92-4dae-91fe-e3ccb565c383"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="132d23a4-fdbf-4638-8611-a0e1e0917605">
+                    <propertyInstance
+                      Id="daaed9d6-c99d-4f16-b2ea-a6bd6e9cd613"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dd52d00-4592-4a98-b18e-d65051124ef8">
+                    <propertyInstance
+                      Id="1628a0cb-f8b2-4ddc-ab51-1bf9930213c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04ae7c27-a6bb-4611-9e5b-8aea1f00b6d7">
+                    <propertyInstance
+                      Id="ad34b1d7-9cac-4243-bfed-3b0ce0236f77"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71c1f6f9-df00-43b5-8c69-bbc95f59c7e9">
+                    <propertyInstance
+                      Id="1133a89a-e16f-441a-988f-34596bfbc037"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31e8ad7a-51bc-4fc9-bdb9-1a22ee23aa64">
+                    <propertyInstance
+                      Id="9b0db07f-2d1d-41ae-8c43-4281db188d87"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1287a2e-f167-4153-87fb-d5b11ced15c1">
+                    <propertyInstance
+                      Id="e006e1a6-7981-4e64-8477-9caee2b5cf31"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8a2165b6-d030-497f-b08c-56f4adbaf3fc"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="485abd74-d2d5-4901-acf9-4af83dbfd344"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4513a6a6-7b08-4922-b458-6c11f89e01cb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f085b0d3-7e5e-43fa-9da0-2faada8b9a68">
+                <propertyInstance
+                  Id="8a40c4e5-3269-43a7-966f-d06161ea6491"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="829ce15b-9c20-4203-80c4-23d91a8885e2">
+                <propertyInstance
+                  Id="e7a3f8b7-4e9b-49ed-9024-a6dd308c4806"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f147c628-b01a-4343-9db7-53d39044589b">
+                <propertyInstance
+                  Id="4146a31e-737a-4c53-9b6a-e03637162668"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ece27b04-d2ad-43a9-bd47-4b7dc1f727a9">
+                <propertyInstance
+                  Id="86ff6288-29df-4b00-8d1c-22f9915f6c87"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80fb44d1-65e4-482d-b231-f6f69ab1f07e">
+                <propertyInstance
+                  Id="0466e52b-3bb0-4c49-8da0-2ff1dcbc6ea1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bb2f3111-9852-400f-985b-2a834e887062"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b84cdcd6-ec10-483c-bbf8-54545daa2935"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c69a6794-318c-4376-817a-856341a23936"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15a9a329-fa17-4e0d-bcaf-9a19e3e30a90">
+                    <propertyInstance
+                      Id="a013d153-9065-4f47-871f-196758bcf4f0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d576ad6f-8352-4b3a-a8ba-b1a2a3bd8749">
+                    <propertyInstance
+                      Id="277a0eb0-e2d3-4b6a-b741-8aff39e1903e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63873c01-6533-406e-a6b9-27ab9d12d95e">
+                    <propertyInstance
+                      Id="dde54d81-065e-432a-b31d-9c67b1406b59"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="053ae15d-8c43-4f37-8884-fd51a8c21f65">
+                    <propertyInstance
+                      Id="e81a08aa-a92e-48d5-8519-5281b3404ab0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4695550b-ab87-4321-bb59-1bc47749d114">
+                    <propertyInstance
+                      Id="8744b29f-c935-4e6e-9ddd-36919bbac888"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a73dc03-527a-43cc-aabd-981f4aaa0fba">
+                    <propertyInstance
+                      Id="eac92e3e-a611-4d98-a905-753e5628c10b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be40867e-aa31-448a-adf3-a6b75d11858c"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="fd639829-dc52-4bff-93b5-ecb07a042998"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0fafce89-8075-42b9-ac61-7e41c8cdd7a5"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="39fdc2ab-3671-48c8-96b0-b8200f55363a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DependencyInjectionModeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d9e81996-abb4-4fa7-a707-ef5dcb87eaf7"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b521a8e7-06f3-4564-b6b9-57accd1d5368"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="efa88091-c8ce-44ff-b757-92de74101f60"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5c661e7-d294-470d-bd9a-70f1f65bc5fb">
+                    <propertyInstance
+                      Id="fce2eb90-e268-4e09-b897-36df61ddaeb7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bde3206a-007e-4330-8b00-d1146e4a76f5">
+                    <propertyInstance
+                      Id="8ea15472-6164-4f8c-a5e1-87dcc19e6218"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d06af4c-084d-444d-a9c9-fb88f29ede75">
+                    <propertyInstance
+                      Id="b96201fb-4916-43a4-b28e-86ea797dc710"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54741f60-9445-4a76-a737-bff295ecfe78">
+                    <propertyInstance
+                      Id="016852b9-a361-4d00-a1e9-b6eec9d03b96"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ee08d29-9c05-41ac-b077-dc8f03be8d43">
+                    <propertyInstance
+                      Id="8da4c9be-314b-4677-9e17-ab51291b21aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd0442e2-1835-4d14-85e1-98cebdb3114b">
+                    <propertyInstance
+                      Id="5a0a570b-8ba9-4041-9b5a-afbceeebc4de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c437d6d2-ee5a-4de8-bc2e-bcc87fb054ee"
+        name="IService"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="05264c31-4138-4dbc-8dfa-931af6304361"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DIService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0e912087-fa95-45e5-a57c-f5ef40f582c4"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4172467-9b84-4cca-8e3a-a46d036d94ab">
+                <propertyInstance
+                  Id="118c0df2-f884-4453-af3d-a822f538d687"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65d28bad-5c21-490c-8954-c9bd7d480073">
+                <propertyInstance
+                  Id="28ff00da-9b9c-42fb-8a35-3163f4e7d2be"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2f4ccfe-74fa-45a3-9e33-d0f806b6a37f">
+                <propertyInstance
+                  Id="df9a82d2-1945-4d7b-8ff8-26b4a8747749"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0df8c3eb-0f0a-49ee-bdaf-6033c04e3e1d">
+                <propertyInstance
+                  Id="b2c6c999-573e-4d7e-b4d3-5abbbe8a6b3d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="6998f719-badf-4d70-b5df-dffaf534d965"
+            name="Serve"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6c63c420-7907-40ff-984e-937cf7b0c7c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DIService Member%3DServe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="878222ba-4d5d-4ae2-9ffc-797151ed6225"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84db39a7-ab95-490f-ba97-db0d19cca5fe">
+                    <propertyInstance
+                      Id="4bb8e705-c26d-420b-a524-504a0901e7ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7547e6ef-844e-4b96-9ead-51d60d6473b6">
+                    <propertyInstance
+                      Id="fee0b43d-b52a-4630-9a01-423b72904b22"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8aa459f3-9c77-49d8-adaf-cbc17d6713f3">
+                    <propertyInstance
+                      Id="b763fe7e-0a8d-4e53-b7c7-9b4fd5787c85"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d41bc13d-e695-4a39-a9b6-c3e17d2bc83e">
+                    <propertyInstance
+                      Id="46a54924-9cb5-4e21-a5ca-c3f662871d5b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6241a9ad-f860-4c5a-9aac-46f968ffd306">
+                    <propertyInstance
+                      Id="1a26dd94-cdae-4aa3-86f5-48cd7813cb24"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c53e0869-2178-420b-a784-e0724af6cc6e">
+                    <propertyInstance
+                      Id="8b2867f8-9a6e-4851-80bd-565fe101b71e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="78248234-0f80-4c4b-b713-e251dd30cb76"
+        name="TestClient"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e1179d3b-d70d-4014-8da4-05368b819190"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DTestClient"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9bafb929-87ec-44d6-9b70-b61cf7a4e82b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="429999e1-20fb-4b59-9b8e-8573ab94d1f8">
+                <propertyInstance
+                  Id="c0befc8f-fcf0-4218-8b0a-98781560da20"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1531d29e-9c09-4f34-b5ba-9255217b8282">
+                <propertyInstance
+                  Id="1fa75133-f8a5-4a89-b325-f9d38049d582"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43895d31-a3da-485f-bf1a-d78fc3483dbe">
+                <propertyInstance
+                  Id="eea73320-a73e-4242-bff6-3209ebd81ade"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4a07527-bdd6-42e6-b5a9-bae2234e6543">
+                <propertyInstance
+                  Id="856f4fb6-898e-4a22-8e26-8fa05d3789ba"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87f0dfc7-5912-4db8-b2ea-c7e07c849640">
+                <propertyInstance
+                  Id="0b11a6af-47f6-44c1-b44a-b2d52ae09d7c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4461dccf-47a3-41bb-90e6-2806d2fde1f8"
+            name="TestClient"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b63749e7-6a8d-43e6-8e72-a95b0d31987b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DTestClient Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3efac19a-2e83-4b8f-9466-e3a8e9b3f2eb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63a520c8-4612-4b41-9f08-2e7661a3e623">
+                    <propertyInstance
+                      Id="1fe33564-da3d-42da-a10c-0add1dd269d0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a20f433b-9ca8-4465-a2bf-2348619ed319">
+                    <propertyInstance
+                      Id="ca6b3d09-009c-474b-8efd-f49d250f62c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fa40b4e-373e-4947-b3ed-a92c013c5e64">
+                    <propertyInstance
+                      Id="58c52f51-8174-4b8c-bb3d-c3c8182807e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5292da3-9826-447c-a838-2be3e4f17936">
+                    <propertyInstance
+                      Id="7a41d16e-6bbb-44a6-80b6-62fcfabec868"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bce5138b-4878-4911-8c7e-7b06fad5bd0c">
+                    <propertyInstance
+                      Id="6621d1eb-3dc2-4e12-bb0c-95dd7aaf12ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1354960a-7e62-45d8-bf83-e35c46db27f1">
+                    <propertyInstance
+                      Id="25376caf-d6ff-442e-ab78-eee1f2341010"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="cf53f185-18d9-43f3-8acb-1bacd787611e"
+            name="Main"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e734ef71-5dfe-4db7-a1e2-b3d90a78eb04"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DTestClient Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d170099-4433-4525-8939-0caf742f0941"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5243e28-936b-4fae-b790-63adebf93d51">
+                    <propertyInstance
+                      Id="cca7520a-c50f-4dde-8479-83476164e3fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="568a8151-8aad-4fa3-b4e6-3a53ab87f9ed">
+                    <propertyInstance
+                      Id="3afd4b6e-42c7-45cc-b982-2e0bb56d5e55"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ecfd9af-119c-45e3-bd6e-fa6de64358b2">
+                    <propertyInstance
+                      Id="b62aa27b-1fb9-4fe8-aca8-d73e84c6b6a2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="294a1135-6648-46be-b5fb-d8d073998ab0">
+                    <propertyInstance
+                      Id="2b2e61b8-f7f2-41f6-b61a-743940fa5d38"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22fbbc33-f2a4-4144-88a2-5c6e7f83ae6f">
+                    <propertyInstance
+                      Id="cb71bb50-7901-401c-9709-086af5bd084f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="755c00a4-4a51-46f8-bc7e-58f5acb0452c">
+                    <propertyInstance
+                      Id="81f47e6f-4b8b-482a-bf38-0a10c07dee8b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="84e52331-88c7-43e5-ae6b-307ea79e4e34"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="cd1f3445-f59a-4115-90ee-5173f1882a4e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DTestClient Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4b4ef113-041c-47f4-8bef-c04d5fded483"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="849256e3-707e-416f-874d-c9a2d433b928"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DependencyInjectionModeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0dcc1b35-038e-42a6-840c-1eaf1da9dcb2"
+        name="AlternateService"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a52c39d7-a62e-41c3-9f10-5f4ef0e39358"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DAlternateService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6d5c1773-cd21-4584-adc9-c3f5a9c76eec"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50415691-1631-4152-a33b-97a16ffdc5e8">
+                <propertyInstance
+                  Id="03e46f80-50ef-449e-943e-7b36d3ce2ba7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4b696b32-52ff-4b14-8740-4c3d7105d302">
+                <propertyInstance
+                  Id="c70ebad6-430f-4d65-904c-95c95721dd3f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b87f06c-89d8-415c-8d90-1eedb42e9d55">
+                <propertyInstance
+                  Id="3d061f6d-5ee9-434b-bb54-752b2e7b7299"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1945564e-8fdd-4056-b15d-95700b53eea9">
+                <propertyInstance
+                  Id="673ecb06-5ca9-4d67-821b-c36b9299806d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1298eb74-56c0-45b5-9823-e4f1c973d16b">
+                <propertyInstance
+                  Id="9187eab3-474c-46d7-8a37-d83aa41f5a13"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e39b9da6-4845-46be-b17b-6de4d487e1e6">
+            <interfaceMoniker
+              Id="c437d6d2-ee5a-4de8-bc2e-bcc87fb054ee"
+              LastKnownName="IService"
+              LastKnownLocation="DependencyInjectionModeling.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="76e0e494-34ca-4594-b10f-3ed170bb3e85"
+            name="AlternateService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4d73b79d-8546-4535-b952-b9069d41c5e5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DAlternateService Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e46536ce-fd7a-494c-a610-5710f8bf86ac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="115b3385-2964-4ac3-8da5-cb5b621a14a5">
+                    <propertyInstance
+                      Id="f966d12a-985a-4eee-a47b-fddecf44ca6f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9c7ac56-8fbf-4e9e-8b67-64527ab73736">
+                    <propertyInstance
+                      Id="923e2fa9-f175-43d1-8129-1654c0283fd5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcd3bc5c-6e3a-4b9b-834a-4e41964147f2">
+                    <propertyInstance
+                      Id="f51b6d28-aabc-48d6-bf44-d6378e5faf0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f8564c3-bede-4269-b306-1edae20d5d3c">
+                    <propertyInstance
+                      Id="918f1408-5c5a-47b6-81de-b6e2a21c3d24"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfe739a6-cdc4-4725-9cd1-28cdca3579b7">
+                    <propertyInstance
+                      Id="3337ea1d-8bbb-4267-be90-eac04e0d1646"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66d504ec-7be3-45aa-8aaa-f126b57a1943">
+                    <propertyInstance
+                      Id="41faffce-5256-40f3-b7ca-14abf743ec81"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="68a5e9a5-3886-4672-b218-45178c546ee7"
+            name="Serve"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7b308fc4-9ba0-4130-967f-4ba162e1df90"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fbruce_000%2FDocuments%2FMyGitRepo%2Fpatterns%2FDependencyInjectionDemos%2F2-ConstructorDependencyInjection%2Fbin%2FDebug%2F2-ConstructorDependencyInjection.exe Type%3DAlternateService Member%3DServe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0b1e5ff-95fa-4cd6-be8f-e7f55ec06a6f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f06a8021-5a4e-41b5-a908-5b7b9a35a5c7">
+                    <propertyInstance
+                      Id="519dd395-89fb-4c13-aee3-d54ba745ddac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="909523e2-3ae9-4fdf-adaf-6ea6f80ef75c">
+                    <propertyInstance
+                      Id="69410e91-f399-4caf-9574-8b61c12c52c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea07aeb7-846d-4388-9d0e-e549b9ccb5ad">
+                    <propertyInstance
+                      Id="86e5b90c-3195-45f8-add9-4b5424b3c379"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9901df6-b514-4057-b7b0-90a3adf07fc2">
+                    <propertyInstance
+                      Id="a20f71d7-9680-40b9-86cb-1c35445903a3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f9f85ee-df11-4ff8-b28f-2dfdefc164f0">
+                    <propertyInstance
+                      Id="39f364cf-9d37-4f45-ae09-de8eba435b61"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c8bece9-ce49-4a38-9ba2-fbfca349e427">
+                    <propertyInstance
+                      Id="4981df9a-95a2-49fb-87f0-3f27dca8b541"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

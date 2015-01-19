@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-01-17T12:37:12" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling' -  (ModelStoreModel)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::AlternateService' -  (Class)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::AlternateService::AlternateService' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::AlternateService::Serve' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Client' -  (Class)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Client::_service' -  (Property)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Client::Client' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Client::Client::service' -  (Parameter)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Client::Start' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::IService' -  (Interface)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::IService::Serve' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Program' -  (Class)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Program::Main' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Program::Program' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Service' -  (Class)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Service::Serve' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::Service::Service' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::TestClient' -  (Class)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::TestClient::Main' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::TestClient::Main::args' -  (Parameter)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'DependencyInjectionModeling::TestClient::TestClient' -  (Operation)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: DependencyInjectionModeling::Service to DependencyInjectionModeling::IService (InterfaceRealization)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: DependencyInjectionModeling::AlternateService to DependencyInjectionModeling::IService (InterfaceRealization)" />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="High" Text="(6) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-01-17T12:37:13" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
