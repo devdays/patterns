@@ -13,10 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-PropertyDependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-MethodDependencyInjection", "3-MethodDependencyInjection\3-MethodDependencyInjection.csproj", "{A2846DDA-FB13-488D-AA31-A2EC1634687B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjectorWithWebAPI", "SimpleInjectorWithWebAPI\SimpleInjectorWithWebAPI.csproj", "{C1516E03-C536-409E-AA54-ED928D6E340E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjectorWithWebAPI.Tests", "SimpleInjectorWithWebAPI.Tests\SimpleInjectorWithWebAPI.Tests.csproj", "{CF53C46A-25B7-4B9F-A964-F753FC778082}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,14 +39,6 @@ Global
 		{A2846DDA-FB13-488D-AA31-A2EC1634687B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2846DDA-FB13-488D-AA31-A2EC1634687B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2846DDA-FB13-488D-AA31-A2EC1634687B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1516E03-C536-409E-AA54-ED928D6E340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1516E03-C536-409E-AA54-ED928D6E340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1516E03-C536-409E-AA54-ED928D6E340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1516E03-C536-409E-AA54-ED928D6E340E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF53C46A-25B7-4B9F-A964-F753FC778082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF53C46A-25B7-4B9F-A964-F753FC778082}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF53C46A-25B7-4B9F-A964-F753FC778082}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF53C46A-25B7-4B9F-A964-F753FC778082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
